@@ -1,0 +1,23 @@
+.Portfolio {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  margin: auto;
+}
+
+.about {
+  max-height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-img {
+  max-height: 200px;
+}
+
+.about-info {
+  max-height:200px;
+}
