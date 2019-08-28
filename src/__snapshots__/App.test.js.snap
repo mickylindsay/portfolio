@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot in personal mode 1`] = `
+<div
+  className="App"
+>
+  <Header
+    flip={[Function]}
+    phase={false}
+  />
+  <div
+    className="content"
+  >
+    <Personal />
+  </div>
+</div>
+`;
+
+exports[`App component matches snapshot in portolio mode 1`] = `
+<div
+  className="App"
+>
+  <Header
+    flip={[Function]}
+    phase={true}
+  />
+  <div
+    className="content"
+  >
+    <Portfolio />
+  </div>
+</div>
+`;
+
+exports[`App component renders personal after phase flip 1`] = `
+<div
+  className="App"
+>
+  <Header
+    flip={[Function]}
+    phase={false}
+  />
+  <div
+    className="content"
+  >
+    <Personal />
+  </div>
+</div>
+`;
+
+exports[`App component renders portfolio after second phase flip 1`] = `
+<div
+  className="App"
+>
+  <Header
+    flip={[Function]}
+    phase={true}
+  />
+  <div
+    className="content"
+  >
+    <Portfolio />
+  </div>
+</div>
+`;

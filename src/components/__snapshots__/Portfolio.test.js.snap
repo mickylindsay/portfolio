@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot 1`] = `
+<div
+  className="Portfolio"
+>
+  <div
+    className="flex about"
+  >
+    <img
+      alt="Profile"
+      className="profile-img"
+      src="profile.jpg"
+    />
+    <p>
+      stuff
+    </p>
+  </div>
+  <div
+    className="flex"
+  >
+    things
+  </div>
+</div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot with phase false 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="header-body"
+  >
+    <h1
+      id="title"
+    >
+      demiSardonic
+    </h1>
+    <h3
+      id="title"
+    >
+      One part portfolio website, two parts personal website
+    </h3>
+  </div>
+  <div
+    className="slider"
+  >
+    <div
+      className="slider slider-inactive"
+      id="slider-left"
+    >
+      <h2>
+        Professonal Programmer and Amateur Public Speaker
+      </h2>
+    </div>
+    <div
+      className="slider slider-active"
+      id="slider-right"
+    >
+      <h2>
+        Amateur Falconeer and Professonal Liar
+      </h2>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header component matches snapshot with phase true 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="header-body"
+  >
+    <h1
+      id="title"
+    >
+      Micky Lindsay
+    </h1>
+    <h3
+      id="title"
+    >
+      One part portfolio website, two parts personal website
+    </h3>
+  </div>
+  <div
+    className="slider"
+  >
+    <div
+      className="slider slider-active"
+      id="slider-left"
+    >
+      <h2>
+        Professonal Programmer and Amateur Public Speaker
+      </h2>
+    </div>
+    <div
+      className="slider slider-inactive"
+      id="slider-right"
+    >
+      <h2>
+        Amateur Falconeer and Professonal Liar
+      </h2>
+    </div>
+  </div>
+</div>
+`;
