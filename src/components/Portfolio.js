@@ -1,8 +1,7 @@
-import React from 'react';
 import './Portfolio.css';
 import profile from './profile.jpg';
 
-const Portfolio = props => {
+const Portfolio = (props) => {
   return (
     <div className="Portfolio">
       <div className="flex about">
@@ -11,6 +10,6 @@ const Portfolio = props => {
       </div>
       <div className="flex">things</div>
     </div>
-  )
-}
+  );
+};
 export default Portfolio;
