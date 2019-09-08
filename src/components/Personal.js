@@ -1,6 +1,9 @@
+import React from 'react';
+import Services from './Services'
+
 const Personal = (props) => {
   return (
-    <h1>abc</h1>
+    <Services/>
   );
 };
 export default Personal;
